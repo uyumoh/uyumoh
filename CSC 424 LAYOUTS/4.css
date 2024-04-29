@@ -1,0 +1,65 @@
+section{
+  background-color: yellow;
+   width: 80vw;
+   margin-left: 10vw;
+}
+
+.initial-nav{
+  display: flex;
+}
+
+.initial-nav p{
+  width: 12rem;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.image-text{
+  display: flex;
+  margin: 5rem;
+  gap: 3rem;
+  height: 10rem;
+}
+
+.image-text img{
+  width: 100%;
+}
+
+.flex-image{
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  gap: 4rem;
+}
+
+.negative-p{
+   margin-left: -3rem;
+   margin-top: 10.5rem;
+}
+
+.work-p{
+  margin-top: 2rem;
+}
+
+.p-flex{
+   display: flex;
+   flex-direction: column;
+}
+
+.black{
+  height: 50px;
+  background-color: black;
+}
+
+.final-three{
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}

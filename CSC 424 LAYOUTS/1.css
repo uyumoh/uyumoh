@@ -1,0 +1,54 @@
+section{
+   background-color: white;
+   width: 80vw;
+   margin-left: 10vw;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic-text{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  gap: 2rem;
+}
+
+
+
+.stretch-pic {
+    background-color: black;
+    height: 4rem;
+}
+
+.stretch-pic img{
+  height: 40%;
+  width: 40%;
+  /* object-fit: cover; */
+}
+
+.three-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.last-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 1rem;
+}

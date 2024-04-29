@@ -1,0 +1,40 @@
+section{
+  background-color: yellow;
+   width: 80vw;
+   margin-left: 10vw;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.pic-text{
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+  justify-content: center;  
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 1rem;
+}
+
+.grid p{
+  margin-top: -3px;
+}
+
+.three-p{
+  display: flex;
+  margin: 1rem;
+}
